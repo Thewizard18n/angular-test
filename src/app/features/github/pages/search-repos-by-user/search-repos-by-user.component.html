@@ -1,0 +1,32 @@
+<section>
+    <div>
+        <button mat-mini-fab color="primary" routerLink="">
+            <mat-icon>arrow_back</mat-icon>
+        </button>
+        <h1>Listagem de repositórios</h1>
+    </div>
+    <div *ngIf="(data$ | async) as resolvedData; else loading">
+        <table mat-table [dataSource]="resolvedData" class="mat-elevation-z0">
+        
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+    
+            <ng-container matColumnDef="stargazers_count">
+                <th mat-header-cell *matHeaderCellDef> Stars </th>
+                <td mat-cell *matCellDef="let element"> {{element.stargazers_count}} </td>
+              </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="cols"></tr>
+            <tr mat-row *matRowDef="let row; columns: cols;"></tr>
+        
+        </table>
+    </div>
+
+</section>
+
+
+<ng-template #loading>
+    <div class="loader" *ngIf="isLoading" >Loading...</div>
+</ng-template>

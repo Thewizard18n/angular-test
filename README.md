@@ -1,27 +1,41 @@
-# TesteItau
+# Conceitos Clean Architecture aplicados e design patterns
+ - desenvolvimentos em camadas
+ - fortalecimento do open closed principle , inversão de dependência (extensibilidade , testabilidade e futuras manutenção do MVP)
+ - Separation of concern design (SoC) aplicado para delegar e separar com clareza.
+ - criação de um facade service para evitar o acumulo de responsabilidades para o uso de metódos HTTP no cliente
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+# Angular app arquitetura
+ - Arquitetura baseada em projeções feitas pelo livro Angular for Enterprise Applications
+ - controle entre o que vai ser eager loaded e lazy loaded
+ - controle sobre mudanças em versões do angular recentes para segurança da aplicacão.
+ - Notifição ao ficar offline e online novamente
 
-## Development server
+# Angular v14,v15 features implementadas
+ - formularios fortemente tipados com formBuilder
+ - diretiva para carregamento de imagem otimazadas , evitando layout trashing (TBT)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# o que eu mudaria/implementaria ?
+ - muita responsabilidade no componente e no serviço. usar um gerenciador global com (NgRx) aliviaria.
+ - conforme a aplicação aumenta é necessario implementar tecnicas de cutting-edge css para otimizar o css
+ - Testes e2e
+ - Testes unitarios
+ - Usar o Angular para gerar algumas automações (scaffolding)
+ - Loader como structural directive e não NgIf
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Visão macro AWS system design
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Rodar a aplicação 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+instale as dependencias -> angular 16.2.4 requer node 16 ou versão superior.
+
+instale as dependecias
+
+Rode `ng serve` para usar localmente.
