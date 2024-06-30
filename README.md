@@ -19,7 +19,7 @@
 
 # Angular v14,v15 features implementadas
  - formularios fortemente tipados com formBuilder
- - diretiva para carregamento de imagem otimazadas , evitando layout trashing (TBT)
+ - diretiva para carregamento de imagem otimazadas , evitando layout trashing (INP) na latencia entre interações e redefinição de tela.
 
 # o que eu mudaria/implementaria ?
  - muita responsabilidade no componente e no serviço. usar um gerenciador global com (NgRx) aliviaria.
