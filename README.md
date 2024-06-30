@@ -33,10 +33,11 @@
 # RxJS e reatividade no acesso a recursos externos
 
  - Um bom operador de transformação que nos permite evitar fetchs desnecessarios é o exhaustmap que foi usado no nosso service layer para acesso ao dados externos.
+
+<p align="center">
+  <img alt="aws" src="./EZ8LkPwWoAAgqPH.png"  >
+</p>
    
-
-
-
 # Visão macro generalista AWS system design
 
 <p align="center">
