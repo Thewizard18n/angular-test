@@ -22,13 +22,20 @@
  - diretiva para carregamento de imagem otimazadas , evitando layout trashing (INP) na latencia entre interações e redefinição de tela.
 
 # o que eu mudaria/implementaria ?
- - muita responsabilidade no componente e no serviço. usar um gerenciador global com (NgRx) aliviaria.
+ - muita responsabilidade no componente e no serviço. usar um gerenciador global com (NgRx) aliviaria (Infrastructure Layer):.
  - conforme a aplicação aumenta é necessario implementar tecnicas de cutting-edge css para otimizar o css
  - Testes e2e
  - Testes unitarios
  - Usar o Angular para gerar algumas automações (scaffolding)
  - Loader como structural directive e não NgIf
  - aplicar conceito de page object (harnesses) para ser pragmatico e direto nas suites de testes
+
+# RxJS e reatividade no acesso a recursos externos
+
+ - Um bom operador de transformação que nos permite evitar fetchs desnecessarios é o exhaustmap que foi usado no nosso service layer para acesso ao dados externos.
+   
+
+
 
 # Visão macro generalista AWS system design
 
