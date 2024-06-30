@@ -32,10 +32,6 @@
 
 
 
-## Rodar a aplicação 
+## Rodar a aplicação online
 
-instale as dependencias -> angular 16.2.4 requer node 16 ou versão superior.
-
-instale as dependecias
-
-Rode `ng serve` para usar localmente.
+Acesse em -> https://thewizard18n.github.io/angular-test/
