@@ -23,14 +23,17 @@
  - Loader como structural directive e não NgIf
 
 
+# Visão abstrata arquitetura front
+
+<p align="center">
+  <img alt="front" src="./Screenshot 2024-06-30 at 00.59.44.png"  >
+</p>
+
 # Visão macro AWS system design
 
-
-
-
- 
-
-
+<p align="center">
+  <img alt="aws" src="./Screenshot 2024-06-25 at 14.26.19.png"  >
+</p>
 
 ## Rodar a aplicação online
 
