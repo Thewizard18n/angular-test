@@ -10,6 +10,7 @@
  - controle entre o que vai ser eager loaded e lazy loaded na aplicação
  - controle sobre mudanças em versões do angular recentes para segurança da aplicacão.
  - A singularidade nos garante não apenas o foco na feature mas tambem a centralização de logicas na camada de domino para evitar o uso de UI nas Nuances dos     testes.
+ - Para a refatoração, sem quebrar os layer subjacentes , é possivel a introdução de conceitos como por exemplo two hats refactorying.
    
 # Visão abstrata arquitetura front
 
@@ -29,6 +30,8 @@
  - Usar o Angular para gerar algumas automações (scaffolding)
  - Loader como structural directive e não NgIf
  - aplicar conceito de page object (harnesses) para ser pragmatico e direto nas suites de testes
+
+
 
 # RxJS e reatividade no acesso a recursos externos
 
